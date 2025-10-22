@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TowingFlix - Canepa's Towing Media</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body class="media-page">
+    <!-- Fixed WhatsApp Button -->
+    <a href="https://wa.me/15129096564" class="whatsapp-float" target="_blank" aria-label="Contact us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Header -->
+    <header id="header" class="media-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Canepa's Towing</span>
+                <span class="logo-dot"></span>
+            </a>
+
+            <div class="header-actions">
+                <button id="translateBtn" class="translate-btn" aria-label="Translate to Spanish">
+                    <i class="fas fa-language"></i>
+                    <span data-translate="EN">EN</span>
+                </button>
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" data-translate="Home">Home</a></li>
+                    <li><a href="index.html#about" data-translate="About">About</a></li>
+                    <li><a href="media.html" class="active" data-translate="Media">Media</a></li>
+                    <li><a href="index.html#portfolio" data-translate="Work">Work</a></li>
+                    <li><a href="index.html#towing-services" data-translate="Towing Services">Towing Services</a></li>
+                    <li><a href="index.html#testimonials" data-translate="Testimonials">Testimonials</a></li>
+                    <li><a href="index.html#contact" data-translate="Contact">Contact</a></li>
+                    <li><a href="linktree.html" class="linktree-btn" data-translate="Links">
+                        <i class="fas fa-link"></i> Links
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- TowingFlix Hero -->
+    <section class="towingflix-hero">
+        <div class="towingflix-logo">
+            <h1>TOWING<span class="flix">FLIX</span></h1>
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section class="media-section">
+        <div class="container">
+            <h2 class="section-title" data-translate="Featured Tows">🔥 Featured Tows</h2>
+            <div class="media-carousel">
+                <button class="carousel-btn prev" aria-label="Previous">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="media-track">
+                    <div class="media-card">
+                        <div class="media-thumbnail">
+                            <div class="play-icon"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="media-info">
+                            <h3 data-translate="Highway Rescue">Highway Rescue</h3>
+                            <p data-translate="Quick response">Quick response on I-35</p>
+                        </div>
+                    </div>
+                    <div class="media-card">
+                        <div class="media-thumbnail">
+                            <div class="play-icon"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="media-info">
+                            <h3 data-translate="Downtown Tow">Downtown Tow</h3>
+                            <p data-translate="Austin downtown">Austin downtown service</p>
+                        </div>
+                    </div>
+                    <div class="media-card">
+                        <div class="media-thumbnail">
+                            <div class="play-icon"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="media-info">
+                            <h3 data-translate="Classic Car">Classic Car Transport</h3>
+                            <p data-translate="Careful handling">Careful handling of vintage vehicle</p>
+                        </div>
+                    </div>
+                    <div class="media-card">
+                        <div class="media-thumbnail">
+                            <div class="play-icon"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="media-info">
+                            <h3 data-translate="Night Service">Night Service</h3>
+                            <p data-translate="24/7 available">24/7 available for emergencies</p>
+                        </div>
+                    </div>
+                    <div class="media-card">
+                        <div class="media-thumbnail">
+                            <div class="play-icon"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="media-info">
+                            <h3 data-translate="SUV Towing">SUV Towing</h3>
+                            <p data-translate="Heavy duty">Heavy duty towing service</p>
+                        </div>
+                    </div>
+                    <div class="media-card">
+                        <div class="media-thumbnail">
+                            <div class="play-icon"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="media-info">
+                            <h3 data-translate="Roadside Assist">Roadside Assistance</h3>
+                            <p data-translate="Jump start">Jump start and tire change</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next" aria-label="Next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Tows -->
+    <section class="media-section">
+        <div class="container">
+            <h2 class="section-title" data-translate="Recent Tows">📹 Recent Tows</h2>
+            <div class="media-carousel">
+                <button class="carousel-btn prev" aria-label="Previous">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="media-track">
+                    <div class="media-card">
+                        <div class="media-thumbnail">
+                            <div class="play-icon"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="media-info">
+                            <h3 data-translate="Sedan Rescue">Sedan Rescue</h3>
+                            <p data-translate="Round Rock">Round Rock area</p>
+                        </div>
+                    </div>
+                    <div class="media-card">
+                        <div class="media-thumbnail">
+                            <div class="play-icon"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="media-info">
+                            <h3 data-translate="Truck Tow">Truck Tow</h3>
+                            <p data-translate="Georgetown">Georgetown service</p>
+                        </div>
+                    </div>
+                    <div class="media-card">
+                        <div class="media-thumbnail">
+                            <div class="play-icon"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="media-info">
+                            <h3 data-translate="Emergency Call">Emergency Call</h3>
+                            <p data-translate="Fast response">Fast response time</p>
+                        </div>
+                    </div>
+                    <div class="media-card">
+                        <div class="media-thumbnail">
+                            <div class="play-icon"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="media-info">
+                            <h3 data-translate="Long Distance">Long Distance Tow</h3>
+                            <p data-translate="Austin to San Antonio">Austin to San Antonio</p>
+                        </div>
+                    </div>
+                    <div class="media-card">
+                        <div class="media-thumbnail">
+                            <div class="play-icon"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="media-info">
+                            <h3 data-translate="Flatbed Service">Flatbed Service</h3>
+                            <p data-translate="Safe transport">Safe transport guaranteed</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next" aria-label="Next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Stories -->
+    <section class="media-section">
+        <div class="container">
+            <h2 class="section-title" data-translate="Customer Stories">⭐ Customer Stories</h2>
+            <div class="media-carousel">
+                <button class="carousel-btn prev" aria-label="Previous">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="media-track">
+                    <div class="media-card">
+                        <div class="media-thumbnail">
+                            <div class="play-icon"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="media-info">
+                            <h3 data-translate="Happy Customer">Happy Customer</h3>
+                            <p data-translate="5 star review">5 star review testimonial</p>
+                        </div>
+                    </div>
+                    <div class="media-card">
+                        <div class="media-thumbnail">
+                            <div class="play-icon"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="media-info">
+                            <h3 data-translate="Family Saved">Family Saved</h3>
+                            <p data-translate="Roadside emergency">Roadside emergency help</p>
+                        </div>
+                    </div>
+                    <div class="media-card">
+                        <div class="media-thumbnail">
+                            <div class="play-icon"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="media-info">
+                            <h3 data-translate="Business Partner">Business Partner</h3>
+                            <p data-translate="Fleet service">Fleet service excellence</p>
+                        </div>
+                    </div>
+                    <div class="media-card">
+                        <div class="media-thumbnail">
+                            <div class="play-icon"><i class="fas fa-play"></i></div>
+                        </div>
+                        <div class="media-info">
+                            <h3 data-translate="Repeat Customer">Repeat Customer</h3>
+                            <p data-translate="Loyal client">Loyal client testimonial</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next" aria-label="Next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <div class="footer-logo">Canepa's Towing<span class="footer-logo-dot"></span></div>
+                    <div class="footer-about">
+                        <p data-translate="footer-desc">We're not just on the road—we're online too! Follow us for updates, behind-the-scenes, and customer stories from Austin and surrounding areas.</p>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-translate="Quick Links">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-translate="Home">Home</a></li>
+                        <li><a href="index.html#about" data-translate="About">About</a></li>
+                        <li><a href="media.html" data-translate="Media">Media</a></li>
+                        <li><a href="index.html#portfolio" data-translate="Work">Work</a></li>
+                        <li><a href="index.html#contact" data-translate="Contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-translate="Services">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html#towing-services" data-translate="Towing Sedans">Towing Sedans</a></li>
+                        <li><a href="index.html#towing-services" data-translate="Classic Cars">Classic Cars</a></li>
+                        <li><a href="index.html#towing-services" data-translate="Trucks">Trucks</a></li>
+                        <li><a href="index.html#towing-services" data-translate="SUVs & Vans">SUVs & Vans</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-translate="Connect With Us">Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="https://wa.me/15129096564" target="_blank" class="social-link" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://facebook.com/share/1A3drKfwRX/?mibextid=wwXlfr" target="_blank" class="social-link" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://instagram.com/colombian_towing" target="_blank" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com/@ColombianTowing7" target="_blank" class="social-link" title="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://tiktok.com" target="_blank" class="social-link" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="tel:+17373825082" class="social-link" title="Phone"><i class="fas fa-phone"></i></a>
+                        <a href="mailto:info@canepatowing.com" class="social-link" title="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 Canepa's Towing. <span data-translate="All rights reserved">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/main.ts" type="module"></script>
+</body>
+</html>

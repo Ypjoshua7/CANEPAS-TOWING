@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="canepatowing.com, towing Austin TX, Canepa's Towing, Canepa, Towing, roadside assistance, tow truck Round Rock, affordable towing, car towing, SUV towing, flatbed towing">
+    <title>Canepa's Towing | Austin Towing Company</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+    <!-- Fixed WhatsApp Button -->
+    <a href="https://wa.me/15129096564" class="whatsapp-float" target="_blank" aria-label="Contact us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="/images/logo.png" alt="Canepa's Towing Logo" class="logo-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                <div class="logo-fallback" style="display:none;">
+                    <span class="logo-text">Canepa's Towing</span>
+                    <span class="logo-dot"></span>
+                </div>
+            </a>
+
+            <div class="header-actions">
+                <button id="translateBtn" class="translate-btn" aria-label="Translate to Spanish">
+                    <i class="fas fa-language"></i>
+                    <span data-translate="EN">EN</span>
+                </button>
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home" data-translate="Home">Home</a></li>
+                    <li><a href="#about" data-translate="About">About</a></li>
+                    <li><a href="media.html" data-translate="Media">Media</a></li>
+                    <li><a href="#portfolio" data-translate="Work">Work</a></li>
+                    <li><a href="#towing-services" data-translate="Towing Services">Towing Services</a></li>
+                    <li><a href="#testimonials" data-translate="Testimonials">Testimonials</a></li>
+                    <li><a href="#contact" data-translate="Contact">Contact</a></li>
+                    <li><a href="linktree.html" class="linktree-btn" data-translate="Links">
+                        <i class="fas fa-link"></i> Links
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1 class="delay-1" data-translate="NEED TOWING SERVICE">NEED TOWING SERVICE<br><span class="highlight">100% SATISFACTION</span></h1>
+                <p class="text-lead delay-2" data-translate="Our dedication to serve those in need is our pleasure">
+                    Our dedication to serve those in need is our pleasure.
+                    <br>
+                    Starting at $85. Don't waste time, CALL NOW!
+                </p>
+                <div class="hero-btns delay-3">
+                    <a href="#contact" class="btn btn-primary" data-translate="Get Assistance Now!">Get Assistance Now!</a>
+                    <a href="#portfolio" class="btn btn-secondary" data-translate="View Our Work">View Our Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container about-container">
+            <div class="about-content fade-in">
+                <h2 data-translate="About the CEO">About the CEO</h2>
+                <p data-translate="Founded by Javier Canepa">Founded by Javier Canepa, Canepa's Towing has established itself as a premier Texas towing agency, working with forward-thinking in all our services we provide. We love our repeat customers and invite new clients who are ready to experience our success. You made us number 1!</p>
+                <p data-translate="Our multidisciplinary team">Our multidisciplinary team of strategists, focus on safe quality service, and team oriented quality-to collaborate a solution to those in need of our services. Our culture will never let you down if your car does. We are all about measurable business results.</p>
+
+                <div class="about-stats">
+                    <div class="stat-item fade-in delay-1">
+                        <div class="stat-number">150+</div>
+                        <div class="stat-label" data-translate="Tows Completing Each Month">Tows Completing Each Month</div>
+                    </div>
+                    <div class="stat-item fade-in delay-2">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label" data-translate="Client Satisfaction">Client Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image fade-in delay-3">
+                <div class="image-placeholder">CEO Image</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 data-translate="Selected Works">Selected Works</h2>
+                <p data-translate="Explore our portfolio">Explore our portfolio of premium towing projects that showcase our approach and capabilities.</p>
+            </div>
+
+            <div class="portfolio-nav fade-in delay-1">
+                <button class="active" data-category="all" data-translate="All">All</button>
+                <button data-category="sedans" data-translate="Sedans">Sedans</button>
+                <button data-category="trucks" data-translate="Trucks">Trucks</button>
+                <button data-category="suvs" data-translate="SUVs">SUVs</button>
+                <button data-category="other" data-translate="Other">Other</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item fade-in delay-2" data-category="sedans">
+                    <img src="/images/sedan-1.jpg" alt="Sedan Towing Service" class="portfolio-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                    <div class="portfolio-img-placeholder" style="display:none;">Sedan 1</div>
+                </div>
+                <div class="portfolio-item fade-in delay-2" data-category="sedans">
+                    <img src="/images/sedan-2.jpg" alt="Sedan Towing Service" class="portfolio-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                    <div class="portfolio-img-placeholder" style="display:none;">Sedan 2</div>
+                </div>
+                <div class="portfolio-item fade-in delay-2" data-category="sedans">
+                    <img src="/images/sedan-3.jpg" alt="Sedan Towing Service" class="portfolio-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                    <div class="portfolio-img-placeholder" style="display:none;">Sedan 3</div>
+                </div>
+                <div class="portfolio-item fade-in delay-2" data-category="sedans">
+                    <img src="/images/sedan-4.jpg" alt="Sedan Towing Service" class="portfolio-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                    <div class="portfolio-img-placeholder" style="display:none;">Sedan 4</div>
+                </div>
+
+                <div class="portfolio-item fade-in delay-2" data-category="trucks">
+                    <img src="/images/truck-1.jpg" alt="Truck Towing Service" class="portfolio-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                    <div class="portfolio-img-placeholder" style="display:none;">Truck 1</div>
+                </div>
+                <div class="portfolio-item fade-in delay-2" data-category="trucks">
+                    <img src="/images/truck-2.jpg" alt="Truck Towing Service" class="portfolio-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                    <div class="portfolio-img-placeholder" style="display:none;">Truck 2</div>
+                </div>
+                <div class="portfolio-item fade-in delay-2" data-category="trucks">
+                    <img src="/images/truck-3.jpg" alt="Truck Towing Service" class="portfolio-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                    <div class="portfolio-img-placeholder" style="display:none;">Truck 3</div>
+                </div>
+                <div class="portfolio-item fade-in delay-2" data-category="trucks">
+                    <img src="/images/truck-4.jpg" alt="Truck Towing Service" class="portfolio-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                    <div class="portfolio-img-placeholder" style="display:none;">Truck 4</div>
+                </div>
+
+                <div class="portfolio-item fade-in delay-2" data-category="suvs">
+                    <img src="/images/suv-1.jpg" alt="SUV Towing Service" class="portfolio-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                    <div class="portfolio-img-placeholder" style="display:none;">SUV 1</div>
+                </div>
+                <div class="portfolio-item fade-in delay-2" data-category="suvs">
+                    <img src="/images/suv-2.jpg" alt="SUV Towing Service" class="portfolio-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                    <div class="portfolio-img-placeholder" style="display:none;">SUV 2</div>
+                </div>
+                <div class="portfolio-item fade-in delay-2" data-category="suvs">
+                    <img src="/images/suv-3.jpg" alt="SUV Towing Service" class="portfolio-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                    <div class="portfolio-img-placeholder" style="display:none;">SUV 3</div>
+                </div>
+                <div class="portfolio-item fade-in delay-2" data-category="suvs">
+                    <img src="/images/suv-4.jpg" alt="SUV Towing Service" class="portfolio-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                    <div class="portfolio-img-placeholder" style="display:none;">SUV 4</div>
+                </div>
+
+                <div class="portfolio-item fade-in delay-3" data-category="other">
+                    <img src="/images/other-1.jpg" alt="Other Towing Services" class="portfolio-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                    <div class="portfolio-img-placeholder" style="display:none;">Other 1</div>
+                </div>
+                <div class="portfolio-item fade-in delay-3" data-category="other">
+                    <img src="/images/other-2.jpg" alt="Other Towing Services" class="portfolio-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                    <div class="portfolio-img-placeholder" style="display:none;">Other 2</div>
+                </div>
+                <div class="portfolio-item fade-in delay-3" data-category="other">
+                    <img src="/images/other-3.jpg" alt="Other Towing Services" class="portfolio-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                    <div class="portfolio-img-placeholder" style="display:none;">Other 3</div>
+                </div>
+                <div class="portfolio-item fade-in delay-3" data-category="other">
+                    <img src="/images/other-4.jpg" alt="Other Towing Services" class="portfolio-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                    <div class="portfolio-img-placeholder" style="display:none;">Other 4</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Towing Services Section -->
+    <section id="towing-services" class="towing-section">
+        <div class="towing-container container">
+            <h2 class="towing-title" data-translate="Towing services in Austin">Towing services in Austin, TX Area<br>We Service Tows Starting $85.00:</h2>
+            <p class="towing-subtitle" data-translate="Fast, safe, and reliable">
+                Fast, safe, and reliable towing across Austin and nearby cities. 7 days a week, 6am–7pm CT.
+            </p>
+
+            <div class="towing-grid">
+                <div class="towing-card">
+                    <h3 class="towing-card-title" data-translate="Vehicle types we tow">Vehicle types we tow</h3>
+                    <ul class="towing-list">
+                        <li><strong data-translate="Sedans">Sedans:</strong> <span data-translate="All standard brands">All standard brands; availability may vary by area.</span></li>
+                        <li><strong data-translate="Classic cars">Classic cars:</strong> <span data-translate="Flatbed recommended">Flatbed recommended for high-clearance classics vehicles (additional fee).</span></li>
+                        <li><strong data-translate="Trucks">Trucks:</strong> <span data-translate="No commercial">No commercial F-450, F-550 or similar models.</span></li>
+                        <li><strong data-translate="SUVs, crossovers, vans">SUVs, crossovers, vans:</strong> <span data-translate="Non-commercial only">Non‑commercial only; call if unsure.</span></li>
+                        <li><strong data-translate="No buses">No buses:</strong> <span data-translate="We don't transport">We don't transport commercial buses.</span></li>
+                    </ul>
+                    <p class="towing-note" data-translate="Starting at $85">Starting at $85. 100% total‑loss vehicles are not accepted.</p>
+                </div>
+
+                <div class="towing-card">
+                    <h3 class="towing-card-title" data-translate="Service area in TX">Service area in TX</h3>
+                    <ul class="towing-list towing-columns">
+                        <li><strong>Austin</strong></li>
+                        <li><strong>Buda</strong></li>
+                        <li><strong>Pflugerville</strong></li>
+                        <li><strong>Round Rock</strong></li>
+                        <li><strong>Cedar Park</strong></li>
+                        <li><strong>Hutto</strong></li>
+                        <li><strong>Georgetown</strong></li>
+                        <li><strong>Leander</strong></li>
+                        <li><strong>Manor</strong></li>
+                        <li><strong>Bee Cave</strong></li>
+                    </ul>
+                    <p class="towing-note" data-translate="Further distances available">Further distances available for transport to Austin metro; call for an estimate.</p>
+                </div>
+
+                <div class="towing-card">
+                    <h3 class="towing-card-title" data-translate="How to get service">How to get service</h3>
+                    <ol class="towing-steps">
+                        <li><strong data-translate="Call">Call:</strong> <span data-translate="Spanish or English">Spanish <a href="tel:+15129096564">(512)‑909‑6564</a> or English <a href="tel:+17373825082">(737)‑382‑5082</a>.</span></li>
+                        <li><strong data-translate="Share details">Share details:</strong> <span data-translate="Your name, vehicle">Your name, vehicle type, and current location.</span></li>
+                        <li><strong data-translate="Confirm">Confirm:</strong> <span data-translate="We'll provide ETA">We'll provide ETA and pricing before dispatch.</span></li>
+                    </ol>
+                    <div class="towing-cta-wrap">
+                        <a href="tel:+17373825082" class="btn btn-small" data-translate="Call English">Call English</a>
+                        <a href="tel:+15129096564" class="btn btn-small btn-secondary" data-translate="Call Spanish">Llama Español</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="towing-stats">
+                <div class="towing-stat">
+                    <span class="towing-stat-value">150+</span>
+                    <span class="towing-stat-label" data-translate="Tows per month">Tows per month</span>
+                </div>
+                <div class="towing-stat">
+                    <span class="towing-stat-value">98%</span>
+                    <span class="towing-stat-label" data-translate="Client satisfaction">Client satisfaction</span>
+                </div>
+                <div class="towing-stat">
+                    <span class="towing-stat-value">7</span>
+                    <span class="towing-stat-label" data-translate="Days a week">Days a week</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container container-narrow">
+            <div class="section-header fade-in">
+                <h2 data-translate="Client Testimonials">Client Testimonials</h2>
+                <p data-translate="Hear what our clients say">Hear what our clients say about working with our team to transform their problems into positive experience.</p>
+            </div>
+            <div class="testimonial-slider-wrapper">
+                <div class="testimonial-slider">
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote" data-translate="testimonial1">I called Canepa's Towing when my SUV broke down in Round Rock. They arrived in under 30 minutes and handled everything professionally. Highly recommend!</div>
+                        <div class="testimonial-author">Marta Antoniuk De Leon</div>
+                        <div class="testimonial-role" data-translate="RCM Agent">Austin City Service Department, RCM Agent</div>
+                    </div>
+                    <div class="testimonial-card" style="display:none;">
+                        <div class="testimonial-quote" data-translate="testimonial2">They quoted me $100 and stuck to it—no hidden fees. That kind of transparency is rare these days.</div>
+                        <div class="testimonial-author">Michael Stevens</div>
+                        <div class="testimonial-role" data-translate="Local Customer">Local Customer</div>
+                    </div>
+                    <div class="testimonial-card" style="display:none;">
+                        <div class="testimonial-quote" data-translate="testimonial3">Great experience! The team was very helpful and made a stressful situation much easier.</div>
+                        <div class="testimonial-author">Emily Davis</div>
+                        <div class="testimonial-role" data-translate="Business Owner">Business Owner</div>
+                    </div>
+                </div>
+                <div class="testimonial-slider-controls">
+                    <button class="testimonial-arrow left" aria-label="Previous testimonial">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="testimonial-arrow right" aria-label="Next testimonial">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 data-translate="Get In Touch">Get In Touch</h2>
+                <p data-translate="Need a tow">Need a tow? Let's make it simple. At Canepa's Towing, we're just one call away from getting you back on the road.</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info fade-in delay-1">
+                    <h3 data-translate="Let's Collaborate">Let's Collaborate</h3>
+                    <p data-translate="We're proud to serve">We're proud to serve our community with integrity and care. So whether it's a sedan, SUV, or classic car, Canepa's Towing is your go-to team when the unexpected happens.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-text">
+                                <h4 data-translate="Our Services">Our Services are a Phone Call Away</h4>
+                                <p data-translate="Call us to get">Call us to get you the help you need!</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-text">
+                                <h4 data-translate="Call Us">Call Us (then) Text Us Your Information</h4>
+                                <p>Spanish: <a href="tel:+15129096564">(512)-909-6564</a>
+                                    <br>
+                                    English: <a href="tel:+17373825082">(737)-382-5082</a>
+                                    <br>
+                                    7 Days a Week, 6am-7pm CST</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <div class="footer-logo">Canepa's Towing<span class="footer-logo-dot"></span></div>
+                    <div class="footer-about">
+                        <p data-translate="footer-desc">We're not just on the road—we're online too! Follow us for updates, behind-the-scenes, and customer stories from Austin and surrounding areas.</p>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-translate="Quick Links">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home" data-translate="Home">Home</a></li>
+                        <li><a href="#about" data-translate="About">About</a></li>
+                        <li><a href="media.html" data-translate="Media">Media</a></li>
+                        <li><a href="#portfolio" data-translate="Work">Work</a></li>
+                        <li><a href="#contact" data-translate="Contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-translate="Services">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#towing-services" data-translate="Towing Sedans">Towing Sedans</a></li>
+                        <li><a href="#towing-services" data-translate="Classic Cars">Classic Cars</a></li>
+                        <li><a href="#towing-services" data-translate="Trucks">Trucks</a></li>
+                        <li><a href="#towing-services" data-translate="SUVs & Vans">SUVs & Vans</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-translate="Connect With Us">Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="https://wa.me/15129096564" target="_blank" class="social-link" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://facebook.com/share/1A3drKfwRX/?mibextid=wwXlfr" target="_blank" class="social-link" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://instagram.com/colombian_towing" target="_blank" class="social-link" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com/@ColombianTowing7" target="_blank" class="social-link" title="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://tiktok.com" target="_blank" class="social-link" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="tel:+17373825082" class="social-link" title="Phone"><i class="fas fa-phone"></i></a>
+                        <a href="mailto:info@canepatowing.com" class="social-link" title="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 Canepa's Towing. <span data-translate="All rights reserved">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/main.ts" type="module"></script>
+</body>
+</html>
